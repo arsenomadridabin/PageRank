@@ -32,7 +32,6 @@ for j in range(30):
 	list3 = [str(x).replace('<b>','') for x in list2]
 	list4 = [str(x).replace('<cite>','') for x in list3]
 	list5 = [str(x).replace('</cite>','') for x in list4] 
-	print(list5)
 	list6 = []
 	for urla in list5:
 		for i,letter in enumerate(urla):
